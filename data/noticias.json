@@ -1,13 +1,13 @@
 {
     "noticias": [
         {
-            "título" : "primeira notica",
-            "noticia": "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cumque molestias ratione temporibus, sed iste repellat nam blanditiis delectus ullam magnam corporis non vitae consequatur maxime suscipit ipsum natus maiores."
+            "titulo" : "Comissão técnica do Vasco conta com Coutinho e Adson na estreia do Brasileirão",
+            "noticia": "A comissão técnica do Vasco conta com Philippe Coutinho e Adson para a estreia do time no Brasileirão, no dia 30, contra o Santos, em São Januário. O meia estará à disposição a partir de semana que vem para voltar a treinar com o grupo, enquanto o atacante, lesionado desde o ano passado, faz parte do planejamento para o confronto."
         },
          
        {
-        "título" : "segunda notica",
-            "noticia": "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cumque molestias ratione temporibus, sed iste repellat nam blanditiis delectus ullam magnam corporis non vitae consequatur maxime suscipit ipsum natus maiores."
+        "titulo" : "Dorival diz que presidente da Conmebol foi infeliz em declaração e cobra punição a atos racistas",
+            "noticia": "A declaração do presidente da Conmebol, Alejandro Domínguez, que fez uma analogia envolvendo um macaco ao citar a possibilidade de a Libertadores não ter clubes brasileiros, segue repercutindo. Nesta quarta-feira, o técnico da Seleção, Dorival Júnior, foi perguntado sobre o assunto e tratou a fala como 'uma declaração infeliz'."
        } 
     ]
 }

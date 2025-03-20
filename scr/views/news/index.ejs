@@ -1,11 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  
-</body>
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MVC</title>
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <br/><br/><br/>
+      <h2>ÚLTIMAS NOTÍCIAS</h2>
+      <br/>
+      
+      <!-- Verifica se há notícias -->
+      <% if (news.length > 0) { %>
+        <div class="row">
+          <!-- Exibe cada uma notícia -->
+          <% for(var i = 0; i < news.length; i++) {%>
+            <div class="col-md-12 jumbotron">
+              <h4><%= news[i].titulo %></h4>  <!-- Exibe o título da notícia -->
+              <p><%= news[i].noticia %></p>  <!-- Exibe o conteúdo da notícia -->
+            </div>
+          <% } %>
+        </div>
+      <% } %>
+    </div>
+  </body>
 </html>
